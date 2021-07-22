@@ -1,20 +1,23 @@
 // THIS IS SAMPLE CODE
-export default {
-  user: 'users',
-  // response messages
-  insert: {
-    sussess: 'Data insert successfully',
-    error: 'Data insert is not success',
+module.exports = {
+  USERS: 'USERS',
+  INSERT: {
+    SUCCESS: 'DATA INSERT SUCCESSFULLY!',
+    ERROR: 'DATA INSERT IS NOT SUCCESS',
   },
-  get: {
-    sucess: 'Data fetched successfully',
-    error: 'Error with fetching data',
-    notfound: 'Data not found',
+  GET: {
+    SUCCESS: 'DATA FETCHED SUCCESSFULLY!',
+    ERROR: 'ERROR WITH FETCHING DATA',
+    NOTFOUND: '404 - DATA NOT FOUND!',
   },
-  update: {
-    success: 'Update success',
+  UPDATE: {
+    SUCCESS: 'DATA UPDATE SUCCESSFULLY',
+    ERROR: 'ERROR WITH UPDATE DATA',
+    NOTFOUND: '404 - DATA TO UPDATE IS NOT FOUND!',
   },
-  delete: {
-    success: 'Delete success',
+  DELETE: {
+    SUCCESS: 'DATA DELETED SUCCESSFULLY',
+    ERROR: 'ERROR WITH DELETE DATA',
+    NOTFOUND: '404 - DATA TO DELETE IS NOT FOUND!',
   },
 };

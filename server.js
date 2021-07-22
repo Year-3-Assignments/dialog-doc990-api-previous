@@ -1,8 +1,8 @@
-import express from "express";
-import dotenv from 'dotenv';
-import cors from 'cors';
-import config from './config';
-import endpoints from './endpoints';
+const express = require('express');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const config = require('./src/config/config');
+const endpoints = require('./src/endpoints');
 
 dotenv.config();
 const app = express();

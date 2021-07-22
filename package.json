@@ -2,10 +2,10 @@
   "name": "doc990-backend-api",
   "version": "1.0.0",
   "description": "Backend REST API for Dialog Doc 990 mobile application",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "nodejs",

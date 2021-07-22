@@ -1,0 +1,120 @@
+[debug] [2021-07-22T05:20:40.542Z] ----------------------------------------------------------------------
+[debug] [2021-07-22T05:20:40.544Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-07-22T05:20:40.545Z] CLI Version:   9.16.0
+[debug] [2021-07-22T05:20:40.545Z] Platform:      win32
+[debug] [2021-07-22T05:20:40.545Z] Node Version:  v14.17.1
+[debug] [2021-07-22T05:20:40.546Z] Time:          Thu Jul 22 2021 10:50:40 GMT+0530 (India Standard Time)
+[debug] [2021-07-22T05:20:40.546Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-22T05:20:40.600Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-22T05:20:40.600Z] > authorizing via signed-in user (sliitedu2021@gmail.com)
+[debug] [2021-07-22T05:20:40.600Z] [iam] checking project dialog-doc-990-database for permissions ["firebase.projects.get"]
+[debug] [2021-07-22T05:20:40.602Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dialog-doc-990-database:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-07-22T05:20:41.885Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Jul 2021 05:20:43 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=950","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-22T05:20:42.250Z] Error: Cannot find module 'D:\RUSIRU\PROJECTS\dialog-doc990-api\src\package.json'
+Require stack:
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:447:21)
+    at FunctionsEmulator.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:158:32)
+    at Function.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\registry.js:16:24)
+    at EmulatorServer.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\emulatorServer.js:17:43)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async FunctionsServer.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:48:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-07-22T05:21:24.764Z] ----------------------------------------------------------------------
+[debug] [2021-07-22T05:21:24.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2021-07-22T05:21:24.766Z] CLI Version:   9.16.0
+[debug] [2021-07-22T05:21:24.766Z] Platform:      win32
+[debug] [2021-07-22T05:21:24.766Z] Node Version:  v14.17.1
+[debug] [2021-07-22T05:21:24.767Z] Time:          Thu Jul 22 2021 10:51:24 GMT+0530 (India Standard Time)
+[debug] [2021-07-22T05:21:24.767Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-22T05:21:24.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-22T05:21:24.818Z] > authorizing via signed-in user (sliitedu2021@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2021-07-22T05:21:24.847Z] [hub] writing locator at C:\Users\OSHADH~1\AppData\Local\Temp\hub-dialog-doc-990-database.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2021-07-22T05:21:25.151Z] Error: Cannot find module 'D:\RUSIRU\PROJECTS\dialog-doc990-api\src\package.json'
+Require stack:
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:447:21)
+    at FunctionsEmulator.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:158:32)
+    at Function.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\registry.js:16:24)
+    at startEmulator (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:90:39)
+    at Object.startAll (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:273:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Command.actionFn (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-start.js:26:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-07-22T05:30:52.213Z] ----------------------------------------------------------------------
+[debug] [2021-07-22T05:30:52.215Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-07-22T05:30:52.215Z] CLI Version:   9.16.0
+[debug] [2021-07-22T05:30:52.215Z] Platform:      win32
+[debug] [2021-07-22T05:30:52.215Z] Node Version:  v14.17.1
+[debug] [2021-07-22T05:30:52.232Z] Time:          Thu Jul 22 2021 11:00:52 GMT+0530 (India Standard Time)
+[debug] [2021-07-22T05:30:52.233Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-22T05:30:52.319Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-22T05:30:52.320Z] > authorizing via signed-in user (sliitedu2021@gmail.com)
+[debug] [2021-07-22T05:30:52.320Z] [iam] checking project dialog-doc-990-database for permissions ["firebase.projects.get"]
+[debug] [2021-07-22T05:30:52.322Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dialog-doc-990-database:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-07-22T05:30:53.563Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Jul 2021 05:30:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=962","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-22T05:30:53.565Z] > refreshing access token with scopes: []
+[debug] [2021-07-22T05:30:53.565Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-22T05:30:53.851Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 22 Jul 2021 05:30:55 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-22T05:30:53.868Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dialog-doc-990-database [none]
+[debug] [2021-07-22T05:30:54.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dialog-doc-990-database 200
+[debug] [2021-07-22T05:30:54.425Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dialog-doc-990-database {"projectId":"dialog-doc-990-database","projectNumber":"868648628548","displayName":"dialog-doc-990-database","name":"projects/dialog-doc-990-database","resources":{"hostingSite":"dialog-doc-990-database","realtimeDatabaseInstance":"dialog-doc-990-database-default-rtdb","storageBucket":"dialog-doc-990-database.appspot.com","locationId":"asia-south1"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\RUSIRU\PROJECTS\dialog-doc990-api'...
+[info] 
+[debug] [2021-07-22T05:30:54.709Z] Error: Cannot find module 'D:\RUSIRU\PROJECTS\dialog-doc990-api\src\package.json'
+Require stack:
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:447:21)
+    at FunctionsEmulator.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:158:32)
+    at Function.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\registry.js:16:24)
+    at EmulatorServer.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\emulatorServer.js:17:43)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async FunctionsServer.start (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\functions.js:48:9)
+    at async Promise.all (index 0)
+    at async serve (C:\Users\Oshadha Deenman\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\index.js:14:5)
+[error] 
+[error] Error: An unexpected error has occurred.
